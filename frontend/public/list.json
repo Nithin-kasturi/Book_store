@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "name": "Football Strategies",
+        "title": "Dive into the best football strategies that have led teams to victory, with detailed analysis of various formations and plays.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 2,
+        "name": "Basketball Tactics",
+        "title": "Learn the essential tactics that can transform your basketball game, from defensive maneuvers to offensive plays.",
+        "price": 5.99,
+        "category": "Sports",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 3,
+        "name": "Movie Buff",
+        "title": "Explore the iconic movies that shaped Hollywood, with behind-the-scenes stories and trivia on your favorite films.",
+        "price": 7.49,
+        "category": "Entertainment",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 4,
+        "name": "Music Legends",
+        "title": "Relive the music legends of the past, with insights into the albums and artists that defined a generation.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 5,
+        "name": "Cricket Chronicles",
+        "title": "A detailed account of the Cricket World Cup and the stories behind the most memorable matches.",
+        "price": 3.99,
+        "category": "Sports",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 6,
+        "name": "Celebrity Gossip",
+        "title": "Uncover behind-the-scenes stories and juicy details about your favorite celebrities.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 7,
+        "name": "Tennis Techniques",
+        "title": "Master the winning serves and other techniques that can enhance your tennis game.",
+        "price": 6.49,
+        "category": "Sports",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 8,
+        "name": "TV Show Guide",
+        "title": "Discover the top TV shows of the decade, with reviews and recommendations for must-watch series.",
+        "price": 2.99,
+        "category": "Entertainment",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 9,
+        "name": "Fitness Frenzy",
+        "title": "Achieve your fitness goals with a variety of workout plans designed for different fitness levels.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 10,
+        "name": "Music Mania",
+        "title": "Enjoy a collection of the top hits of the year, featuring popular tracks and emerging artists.",
+        "price": 8.99,
+        "category": "Entertainment",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 11,
+        "name": "Chess Mastery",
+        "title": "Dive into the best chess strategies with detailed analysis of various openings and endgames to elevate your game.",
+        "price": 4.99,
+        "category": "Games",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 12,
+        "name": "Cooking Classics",
+        "title": "Explore a collection of gourmet recipes that will enhance your cooking skills and bring restaurant-quality meals to your kitchen.",
+        "price": 7.49,
+        "category": "Culinary",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 13,
+        "name": "Travel Guide",
+        "title": "Discover top travel destinations and tips for making the most of your adventures, from hidden gems to must-see landmarks.",
+        "price": 9.99,
+        "category": "Travel",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 14,
+        "name": "Art Appreciation",
+        "title": "An insightful look into various art movements and famous artists that shaped the world of art.",
+        "price": 6.99,
+        "category": "Art",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 15,
+        "name": "Programming Basics",
+        "title": "Get started with fundamental programming concepts and practical examples to build a solid coding foundation.",
+        "price": 5.49,
+        "category": "Education",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 16,
+        "name": "Photography Tips",
+        "title": "Learn essential techniques and tips for capturing stunning photographs, from composition to lighting.",
+        "price": 8.99,
+        "category": "Photography",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 17,
+        "name": "Gardening 101",
+        "title": "Discover the basics of gardening, including soil preparation, planting techniques, and plant care.",
+        "price": 4.99,
+        "category": "Gardening",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 18,
+        "name": "Digital Marketing",
+        "title": "Explore strategies for effective digital marketing, including SEO, content marketing, and social media tactics.",
+        "price": 7.99,
+        "category": "Marketing",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 19,
+        "name": "Fitness Guide",
+        "title": "Achieve your fitness goals with workout routines, nutrition tips, and motivation strategies.",
+        "price": 6.49,
+        "category": "Health",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 20,
+        "name": "DIY Projects",
+        "title": "Get creative with a variety of DIY projects, including home decor, crafts, and upcycling ideas.",
+        "price": 5.99,
+        "category": "Crafts",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 21,
+        "name": "Historical Events",
+        "title": "A comprehensive look at key historical events and their impact on the modern world.",
+        "price": 9.49,
+        "category": "History",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 22,
+        "name": "Personal Finance",
+        "title": "Learn about budgeting, investing, and managing your finances to achieve financial stability.",
+        "price": 8.49,
+        "category": "Finance",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 23,
+        "name": "Mindfulness Techniques",
+        "title": "Enhance your well-being with mindfulness practices, meditation techniques, and stress management strategies.",
+        "price": 6.99,
+        "category": "Wellness",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 24,
+        "name": "Startup Guide",
+        "title": "Get essential tips and insights for launching and growing a successful startup.",
+        "price": 7.49,
+        "category": "Business",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 25,
+        "name": "Self-Improvement",
+        "title": "Strategies for personal growth, including goal-setting, productivity tips, and overcoming challenges.",
+        "price": 5.99,
+        "category": "Self-Help",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 26,
+        "name": "Science Discoveries",
+        "title": "Explore major scientific discoveries and their implications for the future of science and technology.",
+        "price": 8.99,
+        "category": "Science",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 27,
+        "name": "Home Organization",
+        "title": "Tips and techniques for decluttering and organizing your home for a more functional living space.",
+        "price": 4.49,
+        "category": "Lifestyle",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 28,
+        "name": "Pet Care",
+        "title": "Comprehensive advice on caring for pets, including health, training, and grooming tips.",
+        "price": 6.49,
+        "category": "Pets",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 29,
+        "name": "Gardening Tips",
+        "title": "Expert advice on maintaining a beautiful and productive garden throughout the seasons.",
+        "price": 5.49,
+        "category": "Gardening",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    },
+    {
+        "id": 30,
+        "name": "Cooking for Beginners",
+        "title": "An easy-to-follow guide for new cooks, featuring basic recipes and cooking techniques to start your culinary journey.",
+        "price": 4.99,
+        "category": "Culinary",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149330605.jpg?ga=GA1.1.1777970168.1725165883&semt=ais_hybrid"
+    }
+]
