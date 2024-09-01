@@ -1,21 +1,40 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import axios from 'axios';
 export default function Signup() {
+  const navigate=useNavigate();
   const [userInfo,setUserInfo]=useState({
+    fullname:'',
     email:"",
-    password:"",
-    name:''
+    password:""
 })
-const handleSubmit=()=>{
-  if(userInfo.name==='' || userInfo.email==='' || userInfo.password===''){
-      toast("All fields are required");
+const handleSubmit=async()=>{
+  if(userInfo.fullname==='' || userInfo.email==='' || userInfo.password===''){
+      toast.error("All fields are required");
   }
   else if(userInfo.password.length<6){
-      toast("Password length must be greater than 6")
+      toast.error("Password length must be greater than 6")
   }
-  
+  else{
+   await axios.post("http://localhost:4001/user/signup",userInfo)
+    .then((res)=>{
+      console.log(res.data)
+      if(res.data){
+        toast.success("Signup is done");
+        navigate('/');
+      }
+      localStorage.setItem("users",JSON.stringify(res.data.user));
+    })
+    .catch((err)=>{
+      console.log("Error in frontend signup",err);
+      if(err){
+        toast.error(err.response.data.message);
+      }
+    });
+
+  }
 }
   return (
     <div className='h-screen w-screen flex items-center justify-center'>
@@ -35,7 +54,7 @@ const handleSubmit=()=>{
         className='w-80 px-3 border rounded-md outline-none border-blue-300'
         onChange={(e)=>setUserInfo({
           ...userInfo,
-          name:e.target.value
+          fullname:e.target.value
         })}
         />
         
