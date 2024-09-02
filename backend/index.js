@@ -5,11 +5,17 @@ import bookRoute from './route/book.route.js'
 import userRoute from './route/user.route.js';
 import cors from 'cors';
 const app=express();
-app.use(cors());
+app.use(cors(
+    {
+        origin: ["https://deploy-mern-frontend.vercel.app"],
+        methods: ["POST", "GET"],
+        credentials: true
+    }
+));
 app.use(express.json());
 dotenv.config();
 const PORT=process.env.PORT ||4000;
-const URI=process.env.MONGO_DB_URL;
+const URI='mongodb+srv://nithin20891a05e5:58pewu8nMUxb8qb1@cluster0.upjxo.mongodb.net/';
 try {
     mongoose.connect(URI
         ,{
