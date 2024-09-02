@@ -18,7 +18,7 @@ const handleSubmit=async()=>{
       toast.error("Password length must be greater than 6")
   }
   else{
-   await axios.post("http://localhost:4001/user/signup",userInfo)
+   await axios.post("https://vercel.com/nithins-projects-2a827f8d/book-store-ap/user/signup",userInfo)
     .then((res)=>{
       console.log(res.data)
       if(res.data){
