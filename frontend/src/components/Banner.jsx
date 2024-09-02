@@ -1,6 +1,7 @@
 import React from 'react'
 import banner from '../assets/Banner.jpg';
 import Logout from './Logout';
+import Login from './Login';
 function Banner() {
   return (
     < >
