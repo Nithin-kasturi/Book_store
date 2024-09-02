@@ -5,17 +5,17 @@ import {Link} from 'react-router-dom'
 import axios from 'axios';
 function Course() {
   const [book,setBook]=useState([]);
-  useEffect(()=>{
-    const getBook=async()=>{
-      try {
-        const response=await axios.get("https://book-store-ap.vercel.app/book");
-        setBook(response.data);
-      } catch (error) {
-        console.log('error',error);
-      }
-    }
-    getBook();
-  },[])
+  // useEffect(()=>{
+  //   const getBook=async()=>{
+  //     try {
+  //       const response=await axios.get("https://book-store-ap.vercel.app/book");
+  //       setBook(response.data);
+  //     } catch (error) {
+  //       console.log('error',error);
+  //     }
+  //   }
+  //   getBook();
+  // },[])
   return (
     <>
     <div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
