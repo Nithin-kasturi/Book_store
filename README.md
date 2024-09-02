@@ -1,7 +1,7 @@
 
 # Book Store
 
-Welcome to the Bookstore, a web application built with modern technologies to provide a seamless experience for browsing, searching, and purchasing books.
+Welcome to the Bookstore, a web application built with modern technologies to provide a seamless experience for browsing, and purchasing books.
 
 
 ## Installation
