@@ -9,7 +9,7 @@ export const FreeBook = () => {
     useEffect(()=>{
         const getBooks=async()=>{
             try {
-                const response=await axios.get('https://vercel.com/nithins-projects-2a827f8d/book-store-ap/book');
+                const response=await axios.get('https://book-store-ap.vercel.app/book');
                 setBooks(response.data.filter((data)=>data.category==="Free"));                
             } catch (error) {
                 console.log(error);
