@@ -23,9 +23,9 @@ function Banner() {
     <path
       d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
   </svg>
-  <input type="text" className="grow" placeholder="Email" />
+{/*   <input type="text" className="grow" placeholder="Email" /> */}
 </label>
-    <div className="">
+    <div className="mt-6">
     <a className="bg-[#e5981f] text-[#000001] px-3 py-2 rounded-md hover:bg-white hover:text-[#e5981f] duration-300 cursor-pointer" onClick={()=>document.getElementById("my_modal_3").showModal()}>Login</a>
     <Login/>
   </div>        
