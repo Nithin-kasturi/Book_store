@@ -57,7 +57,7 @@ export const FreeBook = () => {
     <div className='max-w-screen-2xl container mx-auto md:px-20 px-4 mt-6'>
         <div>
         <h1 className='font-semibold text-xl pb-2'>Free Courses</h1>        
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, deserunt eligendi consequatur velit eius dolores vitae nostrum quia fuga error optio facere repellendus commodi numquam dolore illo nobis ut saepe.</p>
+        <p>Discover our selection of free books at our store, available in various genres and formats. Visit us or check online for the latest free titles and enjoy a great read at no cost!</p>
         </div>
     <div className="slider-container my-6 p-4">
       <Slider {...settings}>
