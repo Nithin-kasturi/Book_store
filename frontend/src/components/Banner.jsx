@@ -1,5 +1,6 @@
 import React from 'react'
 import banner from '../assets/Banner.jpg';
+import Logout from './Logout';
 function Banner() {
   return (
     < >
@@ -23,8 +24,10 @@ function Banner() {
   </svg>
   <input type="text" className="grow" placeholder="Email" />
 </label>
-    <button className="mt-3 bg-[#e5981f] text-[#000001] px-3 py-2 rounded-md hover:bg-white hover:text-[#e5981f] duration-300 cursor-pointer">Login</button>
-            
+    <div className="">
+    <a className="bg-[#e5981f] text-[#000001] px-3 py-2 rounded-md hover:bg-white hover:text-[#e5981f] duration-300 cursor-pointer" onClick={()=>document.getElementById("my_modal_3").showModal()}>Login</a>
+    <Login/>
+  </div>        
             </div>
             <div className='w-full md:w-1/2 order-1 flex items-center justify-center'>
                 <img src={banner} className='rounded-3xl md:h-96 h-56'/>
