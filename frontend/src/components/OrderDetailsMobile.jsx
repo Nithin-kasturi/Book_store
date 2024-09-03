@@ -22,7 +22,7 @@ export const OrderDetailsMobile = () => {
     }, []);
 
     return (
-        <div className=''>
+        <div className='bg-white'>
             <dialog id="my_modal_0" className="modal text-black">
                 <div className="modal-box w-full">
                     <form method="dialog">
