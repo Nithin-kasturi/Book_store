@@ -54,7 +54,7 @@ function Login() {
         <br/>
         <input type='email'
         placeholder='Enter Your Email'
-        className='w-80 px-3 border rounded-md outline-none border-blue-300'
+        className='w-80 px-3 border rounded-md outline-none border-blue-300 bg-white text-black'
         onChange={(e)=>setUserInfo({
             ...userInfo,
             email:e.target.value
@@ -67,7 +67,7 @@ function Login() {
         <br/>
         <input type='password'
         placeholder='Enter Your Password'
-        className='w-80 px-3 border rounded-md outline-none border-blue-300'
+        className='w-80 px-3 border rounded-md outline-none border-blue-300 bg-white text-black'
         onChange={(e)=>setUserInfo({
             ...userInfo,
             password:e.target.value
