@@ -62,18 +62,18 @@ export const PlaceOrder = () => {
     return (
         <div>
             <dialog id="my_modal_1" className="modal">
-                <div className="modal-box">
+                <div className="modal-box bg-white">
                     <form method="dialog">
                         {/* if there is a button in form, it will close the modal */}
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     </form>
                     <h3 className="font-bold text-lg">Those are some nice choices!</h3>
-                    <div className='flex justify-around mt-4'>
+                    <div className='flex justify-around mt-4 bg-white'>
                         <label>Address</label>
                         <input 
                             type='text' 
                             placeholder='Enter Address' 
-                            className='border-2 text-center w-3/4 rounded-xl'
+                            className='border-2 text-center w-3/4 rounded-xl bg-white text-black'
                             value={userDetails.address}
                             onChange={(e) => setUserDetails(prevDetails => ({
                                 ...prevDetails,
@@ -86,7 +86,7 @@ export const PlaceOrder = () => {
                         <input 
                             type='text' 
                             placeholder='Pincode'
-                            className='border-2 text-center w-3/4 rounded-xl'
+                            className='border-2 text-center w-3/4 rounded-xl bg-white text-black'
                             value={userDetails.pincode}
                             onChange={(e) => setUserDetails(prevDetails => ({
                                 ...prevDetails,
@@ -99,7 +99,7 @@ export const PlaceOrder = () => {
                         <input 
                             type='text' 
                             placeholder='Contact details' 
-                            className='border-2 text-center w-3/4 rounded-xl'
+                            className='border-2 text-center w-3/4 rounded-xl bg-white text-black'
                             value={userDetails.phone}
                             onChange={(e) => setUserDetails(prevDetails => ({
                                 ...prevDetails,
