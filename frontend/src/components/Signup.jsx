@@ -40,7 +40,7 @@ const handleSubmit=async()=>{
     <div className='h-screen w-screen flex items-center justify-center'>
       <ToastContainer/>
       <div className='text-black'>
-        <div id="my_modal_3" className="">
+        <div id="my_modal_3" className="bg-white text-black">
             <div className="modal-box w-full bg-white">
       <form method='dialog'>
       <Link to='/' className='btn btn-sm btn-circle btn-ghost absolute right-2 top-2'>X</Link>
