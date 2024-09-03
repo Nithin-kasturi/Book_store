@@ -1,11 +1,11 @@
 import { useDispatch } from "react-redux";
 import { Buy } from "./Buy";
 import { add } from "../../store/cartSlice";
-
+import toast from "react-hot-toast";
 function Cards({ item }) {
   const dispatch=useDispatch();
   const handleClick=(bookDetails)=>{
-    //dispatch action
+    toast.success("Added to cart");
     dispatch(add(bookDetails))
   }
   return (

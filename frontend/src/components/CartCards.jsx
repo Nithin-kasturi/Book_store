@@ -1,11 +1,11 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
 import { remove } from '../../store/cartSlice';
-
+import toast from "react-hot-toast";
 export const CartCards = ({item,removeBtn}) => {
     const dispatch=useDispatch();
     const handleClick=(item)=>{
-        console.log(item._id)
+        toast.success("Item removed");
         dispatch(remove(item._id));
     }
     return (
