@@ -1,11 +1,15 @@
 import React from "react";
 import { useAuth } from "../context/AuthProvider";
 import toast from "react-hot-toast";
+import { useDispatch } from "react-redux";
+import { resetState } from "../../store/cartSlice";
 
 function Logout() {
   const [authUser, setAuthUser] = useAuth();
+  const dispatch=useDispatch();
   const handleLogout = () => {
     try {
+      dispatch(resetState())
       setAuthUser({
         ...authUser,
         user: null,

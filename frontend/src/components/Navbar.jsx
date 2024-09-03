@@ -2,24 +2,15 @@ import React, { useEffect, useState } from 'react'
 import Login from './Login';
 import { useAuth } from '../context/AuthProvider';
 import Logout from './Logout';
-
+import { useSelector } from 'react-redux';
+import cart from '../assets/cart.png'
+import { OrderDetails } from './OrderDetails';
+import { OrderDetailsMobile } from './OrderDetailsMobile';
 export default function Navbar() {
+  const  cartProducts=useSelector(state=>state.cart).cart;
   const [authUser,setAuthUser]=useAuth()
-  const [theme,setTheme]=useState(localStorage.getItem("theme")?localStorage.getItem("theme"):"light");
   const element=document.documentElement;
-  useEffect(()=>{
-    if(theme==="dark"){
-      element.classList.add("dark");
-      localStorage.setItem("theme","dark");
-      document.body.classList.add("dark");
-    }
-    else{
-      element.classList.add("light");
-      localStorage.setItem("theme","light");
-      document.body.classList.add("light");
-      
-    }
-  },[theme])
+  
   return (
     <div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
 <div className="navbar bg-inherit ">
@@ -43,9 +34,12 @@ export default function Navbar() {
         tabIndex={0}
         className="bg-white menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
         <li><a href='/'>Home</a></li>
-    <li><a href='/course'>Course</a></li>
-    <li><a>Contact</a></li>
-    <li><a>About</a></li>
+    <li><a href='/course'>Books</a></li>
+    <div className='flex'>
+      <li><a href='/cart'><img src={cart} className='h-5 w-5'/></a></li><span className='text-xl text-green-600'>{cartProducts.length}</span>
+      <li><a onClick={()=>document.getElementById("my_modal_0").showModal()}>Order details</a></li>
+      <OrderDetailsMobile/>
+    </div>
       </ul>
     </div>
     <a className="text-2xl font-bold cursor-pointer">Book Store</a>
@@ -55,9 +49,13 @@ export default function Navbar() {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
     <li><a href='/'>Home</a></li>
-    <li><a href='/course'>Course</a></li>
-    <li><a>Contact</a></li>
-    <li><a>About</a></li>
+    <li><a href='/course'>Books</a></li>
+    <div className='flex'>
+      <li><a onClick={()=>document.getElementById("my_modal_4").showModal()}>Order details</a></li>
+      <OrderDetails/>
+      <li><a href='/cart'><img src={cart} className='h-10 w-10'/></a></li><span className='text-xl -ml-3 text-green-600'>{cartProducts.length}</span>
+    </div>
+    
     </ul>
   </div>
   
