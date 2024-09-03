@@ -40,7 +40,7 @@ const handleSubmit=async()=>{
     <div className='h-screen w-screen flex items-center justify-center'>
       <ToastContainer/>
       <div className='text-black'>
-        <div id="my_modal_3" className="bg-white text-black">
+        <div id="my_modal_3" className="">
             <div className="modal-box w-full bg-white">
       <form method='dialog'>
       <Link to='/' className='btn btn-sm btn-circle btn-ghost absolute right-2 top-2'>X</Link>
@@ -51,7 +51,7 @@ const handleSubmit=async()=>{
         <br/>
         <input type='text'
         placeholder='Enter Your Full name'
-        className='w-80 px-3 border rounded-md outline-none border-blue-300'
+        className='w-80 px-3 border rounded-md outline-none border-blue-300 bg-white text-black'
         onChange={(e)=>setUserInfo({
           ...userInfo,
           fullname:e.target.value
@@ -64,7 +64,7 @@ const handleSubmit=async()=>{
         <br/>
         <input type='email'
         placeholder='Enter Your Email'
-        className='w-80 px-3 border rounded-md outline-none border-blue-300'
+        className='w-80 px-3 border rounded-md outline-none border-blue-300 bg-white text-black'
         onChange={(e)=>setUserInfo({
           ...userInfo,
           email:e.target.value
@@ -77,7 +77,7 @@ const handleSubmit=async()=>{
         <br/>
         <input type='password'
         placeholder='Enter Your Password'
-        className='w-80 px-3 border rounded-md outline-none border-blue-300'
+        className='w-80 px-3 border rounded-md outline-none border-blue-300 bg-white text-black'
         onChange={(e)=>setUserInfo({
           ...userInfo,
           password:e.target.value
