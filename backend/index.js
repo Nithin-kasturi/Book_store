@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import bookRoute from './route/book.route.js'
 import userRoute from './route/user.route.js';
+import orderRoute from './route/order.route.js'
 import cors from 'cors';
 const app=express();
 app.use(cors(
@@ -33,6 +34,7 @@ app.get('/',(req,res)=>{
 });
 app.use('/user',userRoute);
 app.use('/book',bookRoute);
+app.use('/order',orderRoute);
 app.listen(PORT,()=>{
     console.log(`Server running at port ${PORT}`)
 })
