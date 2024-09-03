@@ -23,13 +23,13 @@ export const OrderDetailsMobile = () => {
 
     return (
         <div className='bg-white'>
-            <dialog id="my_modal_0" className="modal text-black">
+            <dialog id="my_modal_0" className="modal text-black ">
                 <div className="modal-box w-full">
                     <form method="dialog">
                         {/* If there is a button in form, it will close the modal */}
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     </form>
-                    <h3 className="font-bold text-lg text-[#e5981f]">Order Details</h3>
+                    <h3 className="font-bold text-lg text-[#e5981f]"> Details</h3>
                     {loading ? (
                         <p>Loading...</p>
                     ) : (
