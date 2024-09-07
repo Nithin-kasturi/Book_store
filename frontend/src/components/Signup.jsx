@@ -22,7 +22,7 @@ export default function Signup() {
         const response = await axios.post('https://book-store-ap.vercel.app/user/signup', userInfo);
         console.log(response.data);
         if (response.data) {
-          // localStorage.setItem('users', JSON.stringify(response.data.user));
+          localStorage.setItem('users', JSON.stringify(response.data.user));
           toast.success('Signup is done');
           // Navigate to /course after the toast message is shown
           setTimeout(() => {
