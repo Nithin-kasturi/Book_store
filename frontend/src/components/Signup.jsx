@@ -22,7 +22,9 @@ const handleSubmit=async()=>{
     .then((res)=>{
       console.log(res.data)
       if(res.data){
-        toast.success("Signup is done");
+        setTimeOut(()=>{
+        toast.success("Signup is done");          
+        },2000);
         navigate('/');
       }
       localStorage.setItem("users",JSON.stringify(res.data.user));
