@@ -23,7 +23,7 @@ const handleSubmit=async()=>{
       console.log(res.data)
       if(res.data){
         toast.success("Signup is done");
-        navigate('/course');
+        navigate('/');
       }
       localStorage.setItem("users",JSON.stringify(res.data.user));
     })
