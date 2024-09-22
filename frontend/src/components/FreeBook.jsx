@@ -48,7 +48,7 @@ export const FreeBook = () => {
           settings: {
             slidesToShow: 1,  // Show 1 card at a time on mobile
             slidesToScroll: 1,
-            initialSlide: 0   // Start from the first card
+            initialSlide: 2   // Start from the first card
           }
         }
       ]
