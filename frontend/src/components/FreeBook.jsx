@@ -40,7 +40,7 @@ export const FreeBook = () => {
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
-            initialSlide: 0 // Set initialSlide to 0 for better mobile view
+            initialSlide: 2 // Set initialSlide to 0 for better mobile view
           }
         },
         {
