@@ -40,7 +40,7 @@ export const FreeBook = () => {
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
-            initialSlide: 2 // Set initialSlide to 0 for better mobile view
+            initialSlide: 0 // Set initialSlide to 0 for better mobile view
           }
         },
         {
@@ -48,11 +48,20 @@ export const FreeBook = () => {
           settings: {
             slidesToShow: 1,  // Show 1 card at a time on mobile
             slidesToScroll: 1,
-            initialSlide: 2   // Start from the first card
+            initialSlide: 0   // Start from the first card
+          }
+        },
+        {
+          breakpoint: 300,  // Extra-small screen breakpoint
+          settings: {
+            slidesToShow: 1,  // Show 1 card
+            slidesToScroll: 1,
+            initialSlide: 0   // Start from the first card
           }
         }
       ]
     };
+    
     
   return (
     <>
