@@ -4,7 +4,7 @@
 Welcome to the Bookstore, a web application built with modern technologies to provide a seamless experience for browsing, and purchasing books.
 Frontend: React, React Router DOM, Vite
 Styling: Tailwind CSS, DaisyUI, PostCSS, Autoprefixer
-State Management and Forms: React Hook Form
+State Management and Forms: React Hook Form.
 HTTP Requests: Axios
 Notifications: React Hot Toast, React Toastify
 Carousels/Sliders: React Slick, Slick Carousel
