@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend  # Make sure this path is relative to your project directory
+    ports:
+      - "4000:4000"
+    networks:
+      - book_store
+    environment:
+      # MongoDB connection string (directly in the environment variable)
+      MONGO_URI: mongodb+srv://nithin20891a05e5:58pewu8nMUxb8qb1@cluster0.upjxo.mongodb.net/?retryWrites=true&w=majority
+    depends_on:
+      - mongodb
+    restart: always
+  
+  frontend:
+    build: ./frontend  # Make sure this path is relative to your project directory
+    ports:
+      - "5173:5173"
+    networks:
+      - book_store
+    environment:
+      # React app API URL to interact with the backend
+      REACT_APP_API_URL: http://backend:4000/book
+    depends_on:
+      - backend
+    restart: always
+
+  mongodb:
+    image: mongo:latest  # MongoDB container from the official image
+    ports:
+      - "27017:27017"
+    networks:
+      - book_store
+    volumes:
+      - mongo-data:/data/db  # MongoDB data persistence across container restarts
+    restart: always
+
+networks:
+  book_store:
+    driver: bridge
+
+volumes:
+  mongo-data:
+    driver: local
