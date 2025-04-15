@@ -16,7 +16,7 @@ app.use(cors(
 app.use(express.json());
 dotenv.config();
 const PORT=process.env.PORT ||4000;
-const URI='mongodb+srv://nithin20891a05e5:58pewu8nMUxb8qb1@cluster0.upjxo.mongodb.net/';
+const URI='mongodb+srv://nithin20891a05e5:0RhXUYSwnNIMWxjt@cluster0.l2flxqk.mongodb.net/';
 try {
     mongoose.connect(URI
         ,{
